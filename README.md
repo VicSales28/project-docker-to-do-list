@@ -1,13 +1,41 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Docker To Do List 🐋
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+This project was developed while I was studying Docker at Trybe Programming School.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+There is a full-stack application in this repository: a To Do List application! This application needed to be containerized to work. I developed the configuration files for each specific front: Front-end, Back-end and, in this case, for a test application that validates if the applications are communicating.
+
+Regular deadline: May 2, 2023 at 2:00 pm
+
+<details>
+  <summary><strong>🏗 Project structure</strong></summary><br />
+
+Inside the Docker folder, there are files called commandN.dc in the docker-commands directory, each N equals the number of the challenge I performed.
+
+Each todo-app's Dockerfile was also developed by me, as well as the docker-compose.yml file.
+
+</details>
+
+<details>
+  <summary><strong>🖥️ To access</strong></summary><br />
+
+1 - Clone the repository:
+`git clone git@github.com:VicSales28/project-docker-to-do-list.git`
+
+2 - Enter the repository folder you just cloned.
+
+You must be using node version 16 (or higher).
+
+To check your version, use the command:
+`nvm --version`
+
+3 - With the required version, install the dependencies:
+`npm install`
+
+</details>
+
+<details>
+  <summary><strong>🗣 Feedbacks</strong></summary><br />
+  
+_Give me feedbacks, I'm open to new ideas_ 😉
+
+</details>
